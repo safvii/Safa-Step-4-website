@@ -1,0 +1,191 @@
+
+@media screen and (min-width: 500px) {
+
+	#menuToggler {
+	  display: none;
+	}
+  
+	nav {
+	  display: flex;
+	  flex-direction: row;
+	}
+  
+  }
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+	margin: auto;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+button {
+	background-color:burlywood;
+	color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight:bold;
+    font-size:large;
+    height:40px;
+    padding: 10px;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*scroll to top button*/
+#scrollUp{
+	box-shadow: 1px 1px 3px #888888;
+	position: fixed;
+	bottom: 20px;
+	right: 24px;
+	z-index: 99;
+	font-size: 24px;
+	width: 40px;
+	border-radius: 50%;
+	padding:0
+}
+
+button:hover{
+	background-color: #928385;
+}
+
+
+.section1{
+	margin:auto;
+	padding-top:85px;
+
+}
+
+.content01 h1{
+	color:#ffffff;
+	margin-top: 150px;
+}
+.bg_img{
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.main{
+	height:87vh;
+	padding:60px;
+	text-align:left;
+}
+
+
+footer {
+	background-color: white;
+	height: auto;
+	font-size: medium;
+	text-align: center;
+	width: 100%;
+	color: #ff1694;
+	box-shadow: 0px 1px 10px #888888;
+	padding:10px
+}
+
+footer a {
+  font-size: small;
+  color: #ff1694;
+  padding: 2px;
+  text-decoration: none;
+  line-height: 25px;
+}
+
+footer a:hover {
+	color: #FFC0CB;
+}
+
+#footericons{
+	padding: 18px 20px 30px 20px;
+}
+
+#footericons a{
+	margin: auto;
+	padding: 0px 20px;
+	color: white;
+}
+
+.f1{
+	width:60px;
+	height: 60px 
+}
+
+.f2{
+	width:18px;
+	height: auto
+}
+
+/*common style*/
+:root {
+	--textAdjust: 1;
+}
+
+@media (min-width: 600px) {
+	:root {
+		--textAdjust: 1.25;
+	}
+}
+
+@media (min-width:900px) {
+	:root {
+		--textAdjust: 1.5;
+	}
+}
+
+h1{
+	font-size: calc(40px * var(--textAdjust));	
+	font-weight:bold;
+}
+
+h2{
+	font-size: calc(24px * var(--textAdjust));
+}
+
+p{
+	font-size: calc(14px * var(--textAdjust));
+}
+
+h1 { font-family: sans-serif;}
+
+
+
+[class*="r-"] {
+	float: left;
+	padding: 30px;
+  }
+  
+/* For mobile phones: */
+[class*="r-"] {
+	width: 100%;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px) {
+	.r-card0 {width: 50%;}	
+	.r-content03 {width: 100%;}
+	.r-cont02-1{width: 41.66%;}
+    .r-cont02-2{width: 58.33%;}
+
+}
+
+/* For desktop: */
+@media only screen and (min-width:900px) {
+	.r-card01 {width: 25%;}
+	.r-content {width: 100%;}
+	.r-cont3{width: 50%;}
+    .r-content02-1{width: 33.33%;}
+    .r-content02-2{width: 66.66%;}
+
+
+}

@@ -1,0 +1,150 @@
+.content01{
+	background-image:url('img/leicester3.jpg');
+    background-color: #fef9f9; 
+}
+
+.content03{
+	clear:both;
+	background-color:rgb(255, 255, 255);
+	overflow:auto;
+	height:100%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.content03-0{
+	padding-left:0px
+}
+
+.content03-1{
+	background-image:url('img/leicester1.jpg');
+}
+
+.content03-2{
+	padding:30px 100px;
+	color:#0d0107;
+	background-color:rgb(255, 255, 255);
+	text-align:center
+}
+.content03-2 p{
+	font-size:16px
+}
+.content04{
+    background-image:url('img/leicester3.jpg');
+
+}
+
+.content04-1{
+	margin:auto;
+	padding:30px;
+	height: 89vh;
+	text-align:center;
+	clear:left;
+	overflow:hidden
+}
+
+.content05{
+    background-color:white;
+    color:#111111;
+    text-align:center;
+    height:auto;padding:30px;
+    margin:auto
+}
+
+.slideshow-container {
+	position: relative;
+	height:50%;
+}
+
+.mySlides {
+	display: none;
+	padding: 80px;
+	text-align: center;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4; transform:translateX(100px)} 
+    to {opacity: 1; transform:translateX(0)}
+  }
+  
+  /* Next, previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+      right: 0;
+  }
+  
+  .prev{
+      left:0;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+      color: rgba(255, 192, 203, 0.484);
+  }
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 6px;
+    width: 6px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+
+.image {
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	position: inherit;
+	height:55vh;
+	border-radius:20px;
+	box-shadow:  3px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container{
+	width:84%;	
+	position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+
+
+h2{
+    color: black;
+    font-size: x-large;
+    text-align: center;
+}
+h3{
+    color: #fff;
+}
